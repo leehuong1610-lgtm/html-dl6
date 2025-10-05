@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-he {
+    max-width: 1200px;
+    width: 95%;
+    margin: 20px auto 20px auto;
+    gap: 30px;
+}
+.button {
+    background: #E2E2E2;
+    border-radius: 8px;
+}
+#logo {
+    width: 200px;
+    height: 60px;;
+}
+#menu {
+    width: 820px;
+    height: 34px;
+}
+#button {
+    width: 120px;
+    height: 42px;
+}
+.nav {
+    background: #F1F1F1;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+.container-na {
+    width: 95%;
+    max-width: 1200px;
+    gap: 30px;
+}
+.content {
+    border-radius: 8px;
+    background: #E2E2E2;
+    width: 585px;
+    height: 267px;
+}
+.image {
+    border-radius: 8px;
+    background: #E2E2E2;
+    width: 585px;
+    height: 520px;
+}
+.in-section {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    padding: 80px 0;
+    max-width: 1200px;
+    width: 95%;
+}
+.title-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 95%;
+    max-width: 600px;
+}
+.title {
+    width: 600px;
+    height: 80px;
+    border-radius: 8px;
+    background: #E2E2E2;
+}
+.item-section {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px,380px));
+}
+.item {
+    background: #E2E2E2;
+    height: 420px; 
+    border-radius: 8px;
+}
+.item-normal-section { 
+    display:grid;
+    gap: 30px; 
+    grid-template-columns: repeat(5, minmax(100px,216px));
+}
+.item-normal {
+    background: #E2E2E2;
+    height: 300px; 
+    border-radius: 8px;
+}
+.section-1 {
+    background: #F1F1F1;
+}
+.item-small-section {
+    display:grid;
+    gap: 30px; 
+    grid-template-columns: repeat(4, minmax(100px,277.5px));
+}
+.item-small {
+    background: #E2E2E2;
+    height: 300px; 
+    border-radius: 8px;
+}
+.footer {
+    background: #D9D9D9;
+    height: 72px;
+}
